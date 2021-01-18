@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MilkyController extends AbstractController
 {
     /**
-     * @Route("/milky", name="milky")
+     * @Route("/", name="milky")
      */
     public function index(): Response
     {
